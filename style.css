@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+  background-color: black;
+background-image: cover;
+justify-content: center;
+display: flex;
+flex-direction: column;
+height: 100vh;
+margin: 0;
+background-size: cover;
+font-family: 'Poppins', sans-serif;
+align-items: center;
+}
+p{
+    color:white;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.myclock {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-flow: wrap;
+height: auto;
+width: 500px;
+border-radius: 10px;
+background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+animation: animate 1.5s linear infinite;
+box-shadow: 0px 0px 10px 5px white;
+}
+
+  @keyframes animate {
+    100%{
+      filter: hue-rotate(360deg);
+    }}
+
+.myclock .number{
+ width: 60px;
+ height: 100px;
+ box-sizing: border-box;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ margin: 10px;
+ color: black;
+ font-size: 50px;
+}
+.myclock div{
+    display: flex;
+
+}
+
